@@ -3,12 +3,18 @@
   justify-content: space-between;
   align-content: center;
   justify-items: center;
-  margin: 150px;
+  margin: 150px 0 0 0;
+
   &__left {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     width: 30%;
+    height: 300px;
   }
   &__right {
     width: 70%;
-    margin-left: 70px;
+    margin-left: 20px;
   }
 }
