@@ -1,0 +1,66 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px 40px;
+  justify-items: center;
+  margin-top: 150px;
+}
+
+button {
+  border: none;
+  border-radius: 15px;
+  height: 100px;
+  width: 100px;
+  outline: none;
+  background-color: transparent;
+  background-size: 100% 100%;
+}
+
+.apple {
+  background: url(../images/apple.svg);
+}
+
+.banana {
+  background: url(../images/banana.svg);
+}
+
+.pear {
+  background: url(../images/pear.svg);
+}
+
+.pineapple {
+  background: url(../images/pineapple.svg);
+}
+
+.cherry {
+  background: url(../images/cherries.svg);
+}
+
+.strawberry {
+  background: url(../images/strawberry.svg);
+}
+
+.watermelon {
+  background: url(../images/watermelon.svg);
+}
+
+.grape {
+  background: url(../images/grapes.svg);
+}
+
+.blueberry {
+  background: url(../images/blueberry.svg);
+}
+
+.lemon {
+  background: url(../images/lemon.svg);
+}
+
+.raspberry {
+  background: url(../images/raspberry.svg);
+}
+
+.orange {
+  background: url(../images/orange.svg);
+}
