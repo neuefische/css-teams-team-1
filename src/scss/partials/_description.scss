@@ -3,7 +3,8 @@
   justify-content: space-between;
   align-content: center;
   justify-items: center;
-  margin: 150px 0 0 0;
+  margin: 100px 0 0 0;
+  padding-bottom: 30px;
 
   &__left {
     display: flex;
@@ -11,10 +12,31 @@
     align-content: center;
     justify-content: center;
     width: 30%;
-    height: 300px;
   }
   &__right {
     width: 70%;
     margin-left: 20px;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+  &__history {
+    border-top: 3px solid #68b63d;
+    border-radius: 0px 40px 40px 0px;
+  }
+  &__vitamins {
+    border-top: 3px solid #68b63d;
+    border-radius: 0px 40px 40px 0px;
+  }
+  &__uses {
+    border-top: 3px solid #68b63d;
+    border-radius: 0px 40px 40px 0px;
+    padding-bottom: 70px;
   }
 }
