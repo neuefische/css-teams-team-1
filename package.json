@@ -1,0 +1,26 @@
+{
+  "name": "css-teams-team-1",
+  "version": "1.0.0",
+  "description": "Fruits",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "posthtml-include": "^1.3.2",
+    "sass": "^1.23.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neuefische/css-teams-team-1.git"
+  },
+  "author": "Team 1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neuefische/css-teams-team-1/issues"
+  },
+  "homepage": "https://github.com/neuefische/css-teams-team-1#readme"
+}
