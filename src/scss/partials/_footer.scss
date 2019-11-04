@@ -1,0 +1,21 @@
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 70px;
+  justify-content: center;
+  background-color: $color-4;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.btn {
+  height: 40px;
+  width: 40px;
+  margin: auto;
+}
+
+img > svg {
+  fill: $primary-text-color;
+}

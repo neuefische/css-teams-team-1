@@ -4,12 +4,11 @@
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 40px 40px;
   justify-items: center;
-  margin-top: 150px;
+  margin: 150px 0 100px 0;
 }
 
 button {
   border: none;
-  border-radius: 15px;
   height: 100px;
   width: 100px;
   outline: none;
