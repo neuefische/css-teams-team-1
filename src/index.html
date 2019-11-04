@@ -12,11 +12,10 @@
     />
   </head>
   <body>
-    <!-- <include src="/components/header.html"></include> -->
-    <header><h1>fruitify</h1></header>
+    <include src="./components/header.html"></include>
     <main>
       <div class="content">
-        <button class="apple"></button>
+        <a href="apple.html"><button class="apple"></button></a>
         <button class="banana"></button>
         <button class="pear"></button>
         <button class="pineapple"></button>
@@ -42,21 +41,6 @@
         <button class="orange"></button>
       </div>
     </main>
-    <footer>
-      <nav>
-        <div class="btn">
-          <img src="./images/home.svg" alt="home btn" />
-        </div>
-        <div class="btn">
-          <img src="./images/list.svg" alt="list btn" />
-        </div>
-        <div class="btn">
-          <img src="./images/star.svg" alt="" />
-        </div>
-        <div class="btn">
-          <img src="./images/settings.svg" alt="" />
-        </div>
-      </nav>
-    </footer>
+    <include src="./components/footer.html"></include>
   </body>
 </html>
