@@ -12,8 +12,18 @@ button {
   height: 100px;
   width: 100px;
   outline: none;
-  background-color: transparent;
-  background-size: 100% 100%;
+}
+
+.svg-shadow {
+  fill: $secondary-color;
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.1));
+}
+
+button > svg:hover {
+  fill: $secondary-color;
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.1));
 }
 
 .apple {

@@ -8,6 +8,9 @@ nav {
   width: 100%;
   position: fixed;
   bottom: 0;
+  -webkit-box-shadow: 0px -1px 18px 7px rgba(184, 184, 184, 1);
+  -moz-box-shadow: 0px -1px 18px 7px rgba(184, 184, 184, 1);
+  box-shadow: 0px -1px 18px 2px rgb(240, 240, 240);
 }
 
 .btn {
@@ -18,4 +21,10 @@ nav {
 
 .btn > svg {
   fill: $primary-text-color;
+}
+
+.btn > svg:hover {
+  fill: $secondary-color;
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.1));
 }
