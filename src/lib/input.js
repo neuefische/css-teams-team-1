@@ -1,6 +1,4 @@
-import { addLink } from "./lib/link.js";
-
-const fruits = [
+const fruitbuttons = [
   {
     name: "apple",
     description: "An apple is a sweet, edible fruit produced by Apple trees ar."
@@ -61,14 +59,3 @@ const fruits = [
     description: "An apple is a sweet, edible fruit produced by Apple trees ar."
   }
 ];
-
-const fruitList = document.querySelector(".content");
-
-fruits.forEach(fruit => {
-  const fruitName = fruit.name;
-  let button = document.createElement("button");
-  button.className = fruitName;
-  const linkPath = fruitName + ".html";
-  const linkedButton = addLink(button, linkPath);
-  fruitList.appendChild(linkedButton);
-});
