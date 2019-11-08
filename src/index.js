@@ -20,6 +20,7 @@ const fruitList = document.querySelector(".content");
 fruitButtons.forEach(fruit => {
   let button = document.createElement("button");
   button.className = fruit;
-  const linkedButton = addLink(button);
+  const linkPath = fruit + ".html";
+  const linkedButton = addLink(button, linkPath);
   fruitList.appendChild(linkedButton);
 });
