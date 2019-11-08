@@ -16,8 +16,8 @@ button {
 
 .svg-shadow {
   fill: $secondary-color;
-  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.1));
-  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.1));
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
 }
 
 button > svg:hover {

@@ -1,3 +1,5 @@
+import { addLink } from "./lib/link.js";
+
 const fruitButtons = [
   "apple",
   "banana",
@@ -16,7 +18,8 @@ const fruitButtons = [
 const fruitList = document.querySelector(".content");
 
 fruitButtons.forEach(fruit => {
-  const button = document.createElement("button");
+  let button = document.createElement("button");
   button.className = fruit;
-  fruitList.appendChild(button);
+  const linkedButton = addLink(button);
+  fruitList.appendChild(linkedButton);
 });
