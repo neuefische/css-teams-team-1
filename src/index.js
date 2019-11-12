@@ -1,9 +1,12 @@
 import { addLink } from "./lib/link.js";
+import appleSVG from "./images/apple.svg";
 
 const fruits = [
   {
     name: "apple",
-    description: "An apple is a sweet, edible fruit produced by Apple trees ar."
+    description:
+      "An apple is a sweet, edible fruit produced by Apple trees ar.",
+    src: appleSVG
   },
 
   {
@@ -68,7 +71,8 @@ fruits.forEach(fruit => {
   const fruitName = fruit.name;
   let button = document.createElement("button");
   button.className = fruitName;
-  const linkPath = fruitName + ".html";
+  button.style = `background-image: url(${fruit.src})`;
+  const linkPath = `${fruitName}.html`;
   const linkedButton = addLink(button, linkPath);
   fruitList.appendChild(linkedButton);
 });
